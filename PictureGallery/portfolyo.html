@@ -49,7 +49,7 @@
 
   </head>
   
-  <body>
+  <body style="background-color:#A6A9C8 ;">
     <nav>
       <div class="container clearfix">
         <div id="logo-box">
@@ -67,13 +67,11 @@
               <a href="portfolyo.html" class="menu-link"> PORTFOLYO </a>
             </li>
             <li class="menu-item buyuk-harf">
-              <a href="siparis.html" class="menu-link"> SİPARİŞ </a>
-            </li>
-            <li class="menu-item buyuk-harf">
               <a href="iletisim.html" class="menu-link"> İLETİŞİM </a>
             </li>
           </ul>
         </div>
+
       </div>
     </nav>
     
@@ -82,19 +80,32 @@
 
             <div id="galeriNav">
                 KARAKTERLER
+
+                <div class="cizgiNav"></div>
+
+                <script>
+                  var karakterListesi = ["Karakter1", "Karakter2", "Karakter2", "Karakter2"];
+                  for (item in karakterListesi) {
+                      document.write("<div>");
+                      document.write( karakterListesi[item] + "\n");
+                      document.write("</div>");
+                  }
+              </script>
+
             </div>
 
                 <div id="galeri-ana-div">
                   <div class="clearfix">
 
+                
                   <div class="galeri-card">
                     <div class="galeri-item">
-                      <img class="galeri-img" src="images/IMG_0361 (1).PNG" alt="" />
-                      <div class="galeri-title">Lorem, ipsum.</div>
-                      <div class="galeri-desp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, iure.</div>
+                        <img class="galeri-img" src="images/IMG_0361 (1).PNG" alt="" />
+                        <div class="galeri-title">Lorem, ipsum.</div>
+                        <div class="galeri-desp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, iure.</div>
                     </div>
                   </div>
-
+                
                   <div class="galeri-card">
                     <div class="galeri-item">
                       <img class="galeri-img" src="images/IMG_0361 (1).PNG" alt="" />

@@ -211,7 +211,6 @@ nav{
     }
 }
 
-
 .carousel-item{
     background-color: white;
 }
@@ -392,8 +391,8 @@ footer li{
 #galeri{
     width: auto;
     text-align: center;
-    background-color: #A6A9C8;
     padding: 3rem;
+    background-color: #A6A9C8;
 }
 
 #galeriNav{
@@ -405,7 +404,25 @@ footer li{
     padding-bottom: calc(10px + 0.4rem);
     margin-right: 1rem;
     font-size: 2rem;
-    background-color: aqua;
+}
+
+.karakterListe{
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    width: 170px;
+    height: 2.5rem;
+}
+
+.cizgiNav{
+    color:#554D74;
+    border: none;
+    border-top: 0.4rem solid;
+    border-radius: 4em;
+    max-width: 120px;
+    margin: 0.5rem auto;
+    overflow: visible;
+    height: 0;
 }
 
 #galeri-ana-div{
@@ -420,7 +437,6 @@ footer li{
     height: 420px;
     float: left;
     width: auto;
-    background-color: #ead7e2;
     font-size: 2rem;
     margin-bottom: 2rem;
     margin-right: 2rem;
@@ -430,6 +446,7 @@ footer li{
 
 .galeri-item{
     border-radius: 1.5em;
+    background-color: #ead7e2;
 }
 
 .galeri-img{
@@ -445,9 +462,9 @@ footer li{
     vertical-align: middle;
     font-weight: bold;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 1rem;
-    width: 300px;
+    width: auto;
     height: 30px;
     font-style: bold;
 }
@@ -455,13 +472,13 @@ footer li{
 .galeri-desp{
     text-align: center;
     vertical-align: middle;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    width: 230px;
+    width: auto;
     height: 50px;
 }
 
@@ -495,11 +512,11 @@ footer li{
     .galeri-title{
         font-weight: bold;
         text-align: center;
-        font-size: 2rem;
+        font-size: 3rem;
         margin-top: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        width: 230px;
+        width: auto;
         height: 30px;
         font-style: bold;
     }
@@ -513,7 +530,7 @@ footer li{
         margin-top: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        width: 230px;
+        width: auto;
         height: 50px;
     }
 }
@@ -540,10 +557,46 @@ footer li{
         text-align: center;
         max-width: 100%;
     }
+
+    .galeri-title{
+        font-weight: bold;
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: auto;
+        height: 30px;
+        font-style: bold;
+    }
+    
+    .galeri-desp{
+        text-align: center;
+        vertical-align: middle;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: auto;
+        height: 50px;
+    }
     
 }
 
 @media (min-width:992px){
+
+    #galeriNav{
+        width: 22%;
+        height: 700px;
+        float: left;
+        color: #ffffff;
+        padding-top: calc(106px + 4rem);
+        padding-bottom: calc(10px + 0.4rem);
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
 
     .galeri-card{
         height: 330px;
@@ -598,6 +651,17 @@ footer li{
 
 @media (min-width:1200px){
 
+    #galeriNav{
+        width: 22%;
+        height: 700px;
+        float: left;
+        color: #ffffff;
+        padding-top: calc(106px + 4rem);
+        padding-bottom: calc(10px + 0.4rem);
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
+
     .galeri-card{
         height: 330px;
         float: left;
@@ -647,25 +711,8 @@ footer li{
         width: 230px;
         height: 50px;
     }
-
-   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#resimDetay{
+    height: 900px;
+}
